@@ -67,4 +67,10 @@ public class LavaBallController : MonoBehaviour
         }
         
     }
+
+    public void OnQuit(InputAction.CallbackContext context)
+    {
+        Application.Quit();
+
+    }
 }
